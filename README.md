@@ -2,7 +2,7 @@
 
 Test task for startlesta.by
 
-#Build
+# Build
 mkdir build
 cd build
 
