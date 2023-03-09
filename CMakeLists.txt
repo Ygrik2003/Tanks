@@ -12,6 +12,13 @@ add_executable(Tanks main.cpp base.h
 	cell.h cell.cpp
 	map.h map.cpp
 	projectile.h projectile.cpp
-	)
+	res/res.png
+)
 
 target_link_libraries(Tanks PRIVATE sfml-graphics sfml-system sfml-window)
+
+set(RESOURCE_FILES res/res.png)
+
+
+set_target_properties(Tanks PROPERTIES
+	RESOURCE "${RESOURCE_FILES}")
