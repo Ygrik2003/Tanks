@@ -13,5 +13,6 @@ cmake ..
 cmake --build .
 ```
 ```
-./main
+cd ..
+./build/Tanks
 ```
